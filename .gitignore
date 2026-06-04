@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+.venv/
+
+# Large data files (do not commit to Git!)
+data/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
