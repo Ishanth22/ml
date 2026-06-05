@@ -175,3 +175,9 @@ plt.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.savefig('roc_curve.png', dpi=150)
 print("\nROC curve saved as roc_curve.png")
+
+
+print("Saving the models")
+
+joblib.dump(rf, 'model.pkl')
+joblib.dump(scaler, 'scaler.pkl')
